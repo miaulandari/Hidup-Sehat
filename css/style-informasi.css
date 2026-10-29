@@ -1,0 +1,264 @@
+
+/* Pengaturan dasar */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #FFFDF8;
+    color: #29483E;
+    line-height: 1.6;
+}
+
+/* Navbar */
+header {
+    background-color: white;
+    padding: 18px 6%;
+    border-bottom: 1px solid #F1E9E2;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+.logo {
+    color: #397653;
+    font-size: 24px;
+}
+
+.logo span,
+footer span {
+    color: #E77E9B;
+}
+
+.nav-menu {
+    display: flex;
+    gap: 25px;
+    list-style: none;
+}
+
+.nav-menu a {
+    text-decoration: none;
+    color: #29483E;
+    font-size: 14px;
+}
+
+.nav-menu a:hover,
+.nav-menu .active {
+    color: #E77E9B;
+}
+
+/* Judul halaman */
+.judul-halaman {
+    text-align: center;
+    background-color: #F0F5E9;
+    padding: 55px 6%;
+}
+
+.label {
+    display: inline-block;
+    color: #397653;
+    background-color: #DCEBDD;
+    padding: 5px 14px;
+    border-radius: 20px;
+    font-size: 12px;
+    margin-bottom: 15px;
+}
+
+.judul-halaman h1 {
+    font-size: 34px;
+    margin-bottom: 12px;
+}
+
+.judul-halaman h1 {
+    color: #29483E;
+}
+
+.judul-halaman p {
+    color: #687D75;
+    max-width: 650px;
+    margin: 0 auto;
+}
+
+/* Bagian daftar informasi */
+.daftar-informasi {
+    padding: 45px 6%;
+}
+
+.judul-section {
+    margin-bottom: 25px;
+}
+
+.judul-section h2 {
+    font-size: 27px;
+}
+
+.judul-section p {
+    color: #7B8D84;
+    font-size: 14px;
+}
+
+/* Kartu artikel */
+.kumpulan-kartu {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 25px;
+}
+
+.kartu {
+    background-color: white;
+    border: 1px solid #F0E7DE;
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+.kartu img {
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+}
+
+.isi-kartu {
+    padding: 20px;
+}
+
+.kategori {
+    display: inline-block;
+    padding: 4px 11px;
+    border-radius: 20px;
+    font-size: 12px;
+    margin-bottom: 10px;
+}
+
+.hijau {
+    background-color: #E4F0E2;
+    color: #397653;
+}
+
+.pink {
+    background-color: #FCE4EA;
+    color: #D65F81;
+}
+
+.kartu h3 {
+    font-size: 19px;
+    margin-bottom: 10px;
+}
+
+.kartu p {
+    color: #687D75;
+    font-size: 14px;
+    margin-bottom: 15px;
+}
+
+.kartu a {
+    display: inline-block;
+    color: #D65F81;
+    font-size: 14px;
+    font-weight: bold;
+    text-decoration: none;
+    margin-bottom: 12px;
+}
+
+.kartu a:hover {
+    text-decoration: underline;
+}
+
+.kartu small {
+    display: block;
+    color: #89958E;
+    font-size: 11px;
+}
+
+/* Pengingat hidup sehat */
+.pengingat {
+    margin: 0 6% 45px;
+    padding: 30px;
+    background-color: #F9E8ED;
+    border-radius: 14px;
+    text-align: center;
+}
+
+.pengingat h2 {
+    color: #397653;
+    font-size: 23px;
+    margin-bottom: 10px;
+}
+
+.pengingat p {
+    color: #687D75;
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+.tombol {
+    display: inline-block;
+    background-color: #E77E9B;
+    color: white;
+    text-decoration: none;
+    padding: 10px 22px;
+    border-radius: 25px;
+    font-size: 14px;
+}
+
+.tombol:hover {
+    background-color: #D65F81;
+}
+
+/* Footer */
+footer {
+    background-color: #F8EEE8;
+    text-align: center;
+    padding: 28px 6%;
+}
+
+footer h3 {
+    color: #397653;
+    margin-bottom: 5px;
+}
+
+footer p {
+    color: #7B8D84;
+    font-size: 13px;
+}
+
+footer .copyright {
+    border-top: 1px solid #E9DDD4;
+    margin-top: 18px;
+    padding-top: 15px;
+}
+
+/* Tampilan HP */
+@media (max-width: 768px) {
+    .navbar {
+        flex-direction: column;
+    }
+
+    .nav-menu {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 14px;
+    }
+
+    .judul-halaman h1 {
+        font-size: 27px;
+    }
+
+    .kumpulan-kartu {
+        grid-template-columns: 1fr;
+    }
+
+    .kartu img {
+        height: 200px;
+    }
+
+    .pengingat {
+        padding: 24px 18px;
+    }
+}

@@ -1,0 +1,327 @@
+
+/* PENGATURAN DASAR */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #FBF8F1;
+    color: #344B3B;
+    line-height: 1.7;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+/* NAVIGASI */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 22px 8%;
+    background: #FFFFFF;
+    border-bottom: 1px solid #E3E8DE;
+}
+
+.logo {
+    font-size: 23px;
+    font-weight: bold;
+    color: #385943;
+}
+
+.logo span {
+    color: #66866A;
+}
+
+.navbar {
+    display: flex;
+    gap: 30px;
+}
+
+.navbar a {
+    color: #536456;
+    font-size: 15px;
+}
+
+.navbar a:hover,
+.navbar a.active {
+    color: #385943;
+    font-weight: bold;
+}
+
+
+/* TOMBOL */
+.btn {
+    display: inline-block;
+    padding: 12px 23px;
+    background: #385943;
+    color: white;
+    border-radius: 7px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.btn:hover {
+    background: #66866A;
+}
+
+.text-link {
+    display: inline-block;
+    margin-top: 12px;
+    color: #385943;
+    font-weight: bold;
+}
+
+
+/* HERO */
+.hero {
+    display: flex;
+    align-items: center;
+    gap: 55px;
+    padding: 75px 8%;
+}
+
+.hero-text,
+.hero-image {
+    flex: 1;
+}
+
+.label {
+    display: inline-block;
+    color: #66866A;
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 14px;
+}
+
+.hero h1 {
+    font-size: 43px;
+    line-height: 1.3;
+    color: #385943;
+    margin-bottom: 20px;
+}
+
+.hero h1 span {
+    color: #66866A;
+}
+
+.hero p {
+    color: #737C73;
+    margin-bottom: 25px;
+}
+
+.hero-image img {
+    width: 100%;
+    height: 370px;
+    object-fit: cover;
+    border-radius: 18px;
+}
+
+
+/* PENGENALAN */
+.intro-section {
+    padding: 65px 8%;
+    background: #E8F0E5;
+    text-align: center;
+}
+
+.intro-text {
+    max-width: 760px;
+    margin: auto;
+}
+
+.kategori {
+    color: #66866A;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.intro-section h2,
+.section-heading h2,
+.panduan-text h2,
+.informasi-section h2 {
+    color: #385943;
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+
+.intro-section p {
+    color: #647166;
+    margin-bottom: 14px;
+}
+
+
+/* EDUKASI PILIHAN */
+.artikel-section {
+    padding: 75px 8%;
+}
+
+.section-heading {
+    margin-bottom: 30px;
+}
+
+.section-heading p {
+    color: #737C73;
+}
+
+.artikel-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+}
+
+.artikel-card {
+    background: white;
+    border: 1px solid #E3E8DE;
+    border-radius: 13px;
+    overflow: hidden;
+}
+
+.artikel-card img {
+    width: 100%;
+    height: 210px;
+    object-fit: cover;
+}
+
+.artikel-content {
+    padding: 22px;
+}
+
+.artikel-content h3 {
+    color: #385943;
+    font-size: 19px;
+    margin-bottom: 10px;
+}
+
+.artikel-content p {
+    color: #737C73;
+    font-size: 14px;
+}
+
+.artikel-link {
+    text-align: center;
+    margin-top: 35px;
+}
+
+
+/* PANDUAN */
+.panduan-section {
+    display: flex;
+    align-items: center;
+    gap: 55px;
+    padding: 70px 8%;
+    background: #F2F3E9;
+}
+
+.panduan-image,
+.panduan-text {
+    flex: 1;
+}
+
+.panduan-image img {
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+    border-radius: 15px;
+}
+
+.panduan-text p {
+    color: #737C73;
+    margin-bottom: 15px;
+}
+
+.panduan-text ul {
+    list-style: none;
+    margin-bottom: 25px;
+}
+
+.panduan-text li {
+    margin-bottom: 8px;
+    color: #536456;
+}
+
+
+/* INFORMASI */
+.informasi-section {
+    padding: 75px 8%;
+    text-align: center;
+    background: white;
+}
+
+.informasi-section h2,
+.informasi-section p {
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.informasi-section p {
+    color: #737C73;
+    margin-bottom: 25px;
+}
+
+
+/* AJAKAN PENUTUP */
+.tips-banner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+    margin: 65px 8%;
+    padding: 40px;
+    background: #E8F0E5;
+    border-radius: 15px;
+}
+
+.tips-text {
+    max-width: 650px;
+}
+
+.tips-text h2 {
+    color: #385943;
+    font-size: 26px;
+    margin-bottom: 10px;
+}
+
+.tips-text p {
+    color: #647166;
+}
+
+.btn-pink {
+    background: #66866A;
+}
+
+
+/* FOOTER */
+.footer {
+    background: #304A37;
+    color: white;
+    text-align: center;
+    padding: 30px 20px;
+}
+
+.footer-logo {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.footer p {
+    color: #D6E0D4;
+    font-size: 13px;
+}
+
+.footer .copyright {
+    margin-top: 12px;
+    font-size: 12px;
+}

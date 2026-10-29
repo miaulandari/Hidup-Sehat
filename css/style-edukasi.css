@@ -1,0 +1,226 @@
+
+/* Pengaturan dasar */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #FBF8F1;
+    color: #35443A;
+    line-height: 1.7;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* Navigasi */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 18px 7%;
+    background: white;
+}
+
+.logo {
+    color: #385943;
+    font-size: 23px;
+    font-weight: bold;
+}
+
+.logo span {
+    color: #D98FA1;
+}
+
+nav {
+    display: flex;
+    gap: 25px;
+}
+
+nav a {
+    color: #35443A;
+    font-size: 14px;
+}
+
+nav .active {
+    color: #66866A;
+    font-weight: bold;
+}
+
+/* Bagian judul */
+.judul {
+    padding: 40px 7%;
+    background: #E8F0E5;
+}
+
+.label {
+    color: #66866A;
+    font-size: 12px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.judul h1 {
+    margin: 5px 0 10px;
+    color: #385943;
+    font-size: 32px;
+}
+
+.judul > p:last-child {
+    max-width: 650px;
+    color: #737C73;
+    font-size: 15px;
+}
+
+/* Area materi */
+.materi {
+    max-width: 1100px;
+    margin: auto;
+    padding: 35px 30px;
+}
+
+.pembuka {
+    margin-bottom: 20px;
+}
+
+.pembuka h2 {
+    color: #385943;
+    font-size: 23px;
+    margin-bottom: 5px;
+}
+
+.pembuka p {
+    color: #737C73;
+    font-size: 14px;
+}
+
+/* Artikel edukasi */
+.isi-materi {
+    display: flex;
+    align-items: flex-start;
+    gap: 25px;
+    padding: 25px 0;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #DCE5D9;
+}
+
+.isi-materi img {
+    width: 250px;
+    height: 180px;
+    flex-shrink: 0;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.konten {
+    flex: 1;
+    min-width: 0;
+}
+
+.kategori {
+    color: #66866A;
+    font-size: 12px;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+}
+
+.konten h2 {
+    color: #385943;
+    font-size: 21px;
+    line-height: 1.4;
+    margin: 5px 0 10px;
+}
+
+.konten p {
+    color: #515D53;
+    font-size: 14px;
+    margin-bottom: 12px;
+}
+
+.konten h3 {
+    color: #385943;
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+.konten ul {
+    padding-left: 20px;
+    color: #515D53;
+    font-size: 14px;
+}
+
+/* Ajakan pada setiap artikel */
+.ajakan {
+    margin-top: 15px;
+    padding: 12px 15px;
+    background: #E8F0E5;
+    border-left: 3px solid #66866A;
+    border-radius: 4px;
+    color: #515D53;
+    font-size: 13px;
+}
+
+.ajakan strong {
+    display: block;
+    color: #385943;
+    margin-bottom: 3px;
+}
+
+/* Bagian penutup */
+.penutup {
+    max-width: 1040px;
+    margin: 0 auto 45px;
+    padding: 30px;
+    background: #E8F0E5;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.penutup h2 {
+    color: #385943;
+    font-size: 23px;
+    margin-bottom: 8px;
+}
+
+.penutup p {
+    color: #737C73;
+    font-size: 14px;
+    margin-bottom: 18px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background: #66866A;
+    color: white;
+    border-radius: 6px;
+    font-size: 14px;
+}
+
+.footer {
+    background: #304A37;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 25px 20px;
+}
+
+.footer-logo {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.footer p {
+    font-size: 13px;
+    line-height: 1.6;
+}
+
+.footer .copyright {
+    margin-top: 12px;
+    color: #D6E0D4;
+    font-size: 12px;
+}
