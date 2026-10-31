@@ -572,3 +572,208 @@ header {
     color: #D6E0D4;
     font-size: 12px;
 }
+
+@media screen and (max-width: 600px) {
+
+    /* Container */
+    .container {
+        width: 90%;
+    }
+
+    /* Navigasi */
+    .navbar {
+        width: 90%;
+        min-height: auto;
+        padding: 18px 0;
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .logo {
+        font-size: 22px;
+    }
+
+    .nav-menu {
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 12px 18px;
+    }
+
+    .nav-menu a {
+        font-size: 13px;
+    }
+
+    /* Hero */
+    .page-hero {
+        padding: 45px 0 75px;
+    }
+
+    .hero-inner {
+        flex-direction: column;
+        gap: 25px;
+        text-align: center;
+    }
+
+    .hero-text h1 {
+        font-size: 30px;
+        margin-bottom: 15px;
+    }
+
+    .lead {
+        font-size: 14px;
+    }
+
+    .hero-art {
+        width: 100%;
+        min-height: 260px;
+    }
+
+    .hero-img {
+        max-width: 300px;
+        height: 250px;
+    }
+
+    .blob-pink {
+        width: 160px;
+        height: 160px;
+        left: 10px;
+    }
+
+    .blob-green {
+        width: 140px;
+        height: 140px;
+        right: 5px;
+    }
+
+    .sdg-badge {
+        right: 0;
+        bottom: 0;
+        padding: 9px 13px;
+    }
+
+    .sdg-badge strong {
+        font-size: 15px;
+    }
+
+    /* Bagian umum */
+    .section {
+        padding: 45px 0;
+    }
+
+    .section h2 {
+        font-size: 25px;
+    }
+
+    .section h3 {
+        font-size: 17px;
+    }
+
+    /* Tujuan website */
+    .tujuan-layout {
+        grid-template-columns: 1fr;
+        gap: 28px;
+    }
+
+    .petal {
+        padding: 18px;
+        gap: 13px;
+    }
+
+    .petal-icon {
+        width: 40px;
+        height: 40px;
+        font-size: 20px;
+    }
+
+    /* Empat pilar */
+    .section-panel {
+        padding: 45px 0;
+    }
+
+    .pilar-grid {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 14px;
+    }
+
+    .pilar {
+        padding: 18px 12px;
+    }
+
+    .pilar img {
+        width: 90px;
+        height: 90px;
+    }
+
+    .pilar h3 {
+        font-size: 15px;
+    }
+
+    .pilar p {
+        font-size: 13px;
+    }
+
+    /* Tim pengembang */
+    .team-grid {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 14px;
+    }
+
+    .member {
+        padding: 20px 12px;
+    }
+
+    .avatar,
+    .avatar-photo {
+        width: 75px;
+        height: 75px;
+        font-size: 25px;
+    }
+
+    .member h3 {
+        font-size: 14px;
+    }
+
+    .member .nim,
+    .member .tugas {
+        font-size: 12px;
+    }
+
+    /* Referensi */
+    .ref-list li {
+        padding: 15px;
+    }
+
+    .ref-list a {
+        font-size: 14px;
+    }
+
+    .ref-list span {
+        font-size: 12px;
+        overflow-wrap: anywhere;
+    }
+
+    .note {
+        padding: 15px;
+        font-size: 13px;
+    }
+
+    /* Footer */
+    .footer {
+        padding: 30px 5% 0;
+    }
+
+    .footer-content {
+        flex-direction: column;
+        gap: 25px;
+        padding-bottom: 25px;
+        text-align: left;
+    }
+
+    .footer-brand {
+        max-width: 100%;
+    }
+
+    .footer-bottom {
+        padding: 15px 0;
+    }
+}
