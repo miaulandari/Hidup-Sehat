@@ -325,3 +325,180 @@ a {
     margin-top: 12px;
     font-size: 12px;
 }
+
+@media screen and (max-width: 600px) {
+
+    /* NAVIGASI */
+    .header {
+        flex-direction: column;
+        gap: 15px;
+        padding: 18px 5%;
+    }
+
+    .logo {
+        font-size: 22px;
+    }
+
+    .navbar {
+        width: 100%;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 10px 16px;
+    }
+
+    .navbar a {
+        font-size: 12px;
+    }
+
+
+    /* HERO */
+    .hero {
+        flex-direction: column;
+        text-align: center;
+        padding: 40px 6%;
+        gap: 25px;
+    }
+
+    .hero h1 {
+        font-size: 29px;
+    }
+
+    .hero p {
+        font-size: 14px;
+    }
+
+    .hero-image img {
+        height: 230px;
+        border-radius: 13px;
+    }
+
+
+    /* PENGENALAN */
+    .intro-section {
+        padding: 45px 6%;
+    }
+
+    .intro-section h2,
+    .section-heading h2,
+    .panduan-text h2,
+    .informasi-section h2 {
+        font-size: 23px;
+    }
+
+    .intro-section p {
+        font-size: 14px;
+    }
+
+
+    /* KARTU ARTIKEL */
+    .artikel-section {
+        padding: 45px 6%;
+    }
+
+    .artikel-grid {
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+
+    .artikel-card img {
+        height: 200px;
+    }
+
+    .artikel-content {
+        padding: 18px;
+    }
+
+    .artikel-content h3 {
+        font-size: 18px;
+    }
+
+    .artikel-content p {
+        font-size: 14px;
+    }
+
+
+    /* PANDUAN */
+    .panduan-section {
+        flex-direction: column;
+        padding: 45px 6%;
+        gap: 25px;
+    }
+
+    .panduan-image,
+    .panduan-text {
+        width: 100%;
+    }
+
+    .panduan-image img {
+        height: 230px;
+    }
+
+    .panduan-text p,
+    .panduan-text li {
+        font-size: 14px;
+    }
+
+
+    /* INFORMASI */
+    .informasi-section {
+        padding: 45px 6%;
+    }
+
+    .informasi-section p {
+        font-size: 14px;
+    }
+
+
+    /* AJAKAN PENUTUP */
+    .tips-banner {
+        flex-direction: column;
+        align-items: flex-start;
+        margin: 30px 5%;
+        padding: 23px 18px;
+        gap: 18px;
+    }
+
+    .tips-text h2 {
+        font-size: 21px;
+    }
+
+    .tips-text p {
+        font-size: 14px;
+    }
+
+
+    /* TOMBOL */
+    .btn {
+        padding: 11px 18px;
+        font-size: 13px;
+    }
+
+
+    /* FOOTER */
+    .footer {
+        padding: 27px 15px;
+    }
+
+    .footer-logo {
+        font-size: 19px;
+    }
+
+    .footer p {
+        font-size: 12px;
+    }
+
+
+    body {
+        overflow-x: hidden;
+    }
+
+    .hero-text,
+    .hero-image,
+    .panduan-image,
+    .panduan-text,
+    .tips-text {
+        min-width: 0;
+        width: 100%;
+    }
+
+}
