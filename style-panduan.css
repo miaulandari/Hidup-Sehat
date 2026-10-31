@@ -304,3 +304,98 @@ p {
     color: #D6E0D4;
     font-size: 12px;
 }
+
+@media screen and (max-width: 600px) {
+
+    /* Header dan navigasi */
+    .header {
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+        padding: 18px 5%;
+    }
+
+    .logo {
+        font-size: 21px;
+    }
+
+    .navbar {
+        justify-content: center;
+        gap: 10px 16px;
+    }
+
+    .navbar a {
+        font-size: 12px;
+    }
+
+    /* Bagian pembuka */
+    .panduan-hero {
+        padding: 45px 20px;
+    }
+
+    .panduan-hero h1 {
+        font-size: 29px;
+    }
+
+    .hero-description {
+        font-size: 14px;
+    }
+
+    /* Bagian panduan */
+    .panduan-section,
+    .rutinitas-section {
+        padding: 40px 5%;
+    }
+
+    .section-heading h2 {
+        font-size: 24px;
+    }
+
+    .section-heading > p:last-child {
+        font-size: 14px;
+    }
+
+    /* Kartu panduan */
+    .panduan-grid {
+        grid-template-columns: 1fr;
+        gap: 15px;
+    }
+
+    .card-utama,
+    .card-kecil {
+        grid-column: span 1;
+    }
+
+    .panduan-card {
+        padding: 20px;
+    }
+
+    /* Rutinitas harian */
+    .rutinitas-list {
+        grid-template-columns: 1fr;
+        gap: 14px;
+    }
+
+    .rutinitas-item {
+        gap: 12px;
+        padding: 18px;
+    }
+
+    .rutinitas-waktu {
+        min-width: 65px;
+        font-size: 10px;
+    }
+
+    /* Footer */
+    .footer {
+        padding: 22px 15px;
+    }
+
+    .footer-logo {
+        font-size: 18px;
+    }
+
+    .footer p {
+        font-size: 12px;
+    }
+}
