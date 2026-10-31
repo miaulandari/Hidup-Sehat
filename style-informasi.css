@@ -293,3 +293,144 @@ footer span {
     color: #D6E0D4;
     font-size: 12px;
 }
+
+@media screen and (max-width: 600px) {
+
+    /* NAVBAR */
+    header {
+        padding: 17px 5%;
+    }
+
+    .navbar {
+        flex-direction: column;
+        gap: 14px;
+    }
+
+    .logo {
+        font-size: 21px;
+    }
+
+    .nav-menu {
+        width: 100%;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 10px 15px;
+    }
+
+    .nav-menu a {
+        font-size: 12px;
+    }
+
+
+    /* JUDUL HALAMAN */
+    .judul-halaman {
+        padding: 40px 6%;
+    }
+
+    .judul-halaman h1 {
+        font-size: 27px;
+    }
+
+    .judul-halaman p {
+        font-size: 13px;
+    }
+
+
+    /* DAFTAR INFORMASI */
+    .daftar-informasi {
+        padding: 35px 6%;
+    }
+
+    .judul-section h2 {
+        font-size: 23px;
+    }
+
+    .judul-section p {
+        font-size: 13px;
+    }
+
+
+    /* KARTU ARTIKEL */
+    .kumpulan-kartu {
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+
+    .kartu img {
+        height: 210px;
+    }
+
+    .isi-kartu {
+        padding: 18px;
+    }
+
+    .kartu h3 {
+        font-size: 18px;
+    }
+
+    .kartu p {
+        font-size: 13px;
+    }
+
+
+    /* PENGINGAT HIDUP SEHAT */
+    .pengingat {
+        margin: 0 5% 35px;
+        padding: 25px 18px;
+    }
+
+    .pengingat h2 {
+        font-size: 21px;
+    }
+
+    .pengingat p {
+        font-size: 13px;
+    }
+
+    .tombol {
+        padding: 10px 18px;
+        font-size: 13px;
+    }
+
+
+    /* FOOTER */
+    .footer {
+        padding: 30px 6% 0;
+    }
+
+    .footer-content {
+        flex-direction: column;
+        gap: 25px;
+        padding-bottom: 25px;
+        text-align: left;
+    }
+
+    .footer-brand {
+        max-width: 100%;
+    }
+
+    .footer-brand p {
+        font-size: 13px;
+    }
+
+    .footer-links {
+        gap: 9px;
+    }
+
+    .footer-links h3 {
+        font-size: 16px;
+    }
+
+    .footer-links a {
+        font-size: 13px;
+    }
+
+    .footer-bottom {
+        padding: 15px 0;
+    }
+
+    .footer-bottom p {
+        font-size: 11px;
+    }
+
+}
